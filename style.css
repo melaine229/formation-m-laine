@@ -1,0 +1,130 @@
+body{
+    position: absolute;
+}
+
+.title{
+    margin-left: 50em;
+    font-family: sans-serif !important;
+}
+.title1{
+    margin-left: 230px;
+    font-family: sans-serif !important;
+}
+
+.A1{
+    margin-left: 60px !important;
+}
+
+nav a{
+    text-decoration: none;
+    color: #62b3f5;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+nav{
+    margin-left: 200px;
+}
+
+.card1{
+    display: flex;
+    margin-left: 70px;
+    border: solid 1px rgb(122, 118, 118);
+    border-radius: 10px;
+    width: 620px;
+    
+}
+.card2{
+    display: flex;
+    margin-left: 70px;
+    border: solid 1px rgb(122, 118, 118);
+    border-radius: 10px;
+    width: 620px;
+    
+}
+.card3{
+    display: flex;
+    margin-left: 70px;
+    border: solid 1px rgb(122, 118, 118);
+    border-radius: 10px;
+    width: 620px;
+    
+}
+.card4{
+    display: flex;
+    margin-left: 70px;
+    border: 1px solid rgb(122, 118, 118);
+    border-radius: 10px;
+    width: 620px;
+    
+}
+
+.img1{
+    
+}
+
+.part1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.sous-title{
+    font-size: 22px;
+    
+}
+
+.texte1{
+    font-size: 20px;
+}
+
+.part1-2 a{
+    color: #62b3f5;
+    font-size: 26px !important;
+    font-style: italic;
+    margin-left: 80px;
+}
+.part1-2 p{
+    color: rgb(87, 84, 84);
+    font-size: 17px;
+}
+
+.first{
+    display: flex;
+}
+
+.second{
+    display: flex;
+    margin-top: 40px;
+}
+
+section hr{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 36em;
+}
+
+footer{
+    background-color: rgb(71, 68, 68);
+    color: rgb(189, 184, 184);
+    margin-top: 30px;
+}
+.foot1{
+    display: flex;
+    margin-left: 500px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.foot1 a{
+    margin-left: 30px;
+    color: rgb(189, 184, 184);
+    text-decoration: none;
+    font-family: sans-serif !important;
+}
+
+.foot2{
+    margin-left: 700px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-family: sans-serif !important;
+}
