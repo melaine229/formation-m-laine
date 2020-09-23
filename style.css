@@ -1,100 +1,153 @@
-body{
+@media screen and (max-width:768px) 
+{
+  body{
+    
+  }  
+  
+  .fa-5x{
+    font-size: 2em !important;
+  }  
+  .nos{
+    font-size:18px;
+    margin-left: 35px !important;
+  }
+  
+  .cletus{
+    margin-left: 0 !important;
+    float:right;
     position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .icone-nav{
+   position: ;
+   height: ;
+   width: ;
+   flex-direction: colum;
+  }
+
+  .card-container {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px !important;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px !important;
+  }
+
+  .card{
+    flex-direction: column;
+  }
+
+  image{
+    width: 50%;
+    height: auto;
+  }
+
+  .ori-barre{
+    visibility: hidden;
+  }
+   
 }
 
-.title{
-    margin-left: 50em;
-    font-family: sans-serif !important;
-}
-.title1{
-    margin-left: 230px;
-    font-family: sans-serif !important;
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+.cletus{
+  margin-left: ;
+  text-align: right;
+  font-family: sans-serif !important;
 }
 
-.A1{
-    margin-left: 60px !important;
+.nos{
+  margin-left: 300px;
+  font-family: sans-serif !important;
 }
 
-nav a{
+.icone-nav a:not(:first-child) { 
+    margin-left: 60px; 
+} 
+
+.icone-nav a:first-child {
+    margin-left: 30px 
+}
+
+.icone-nav a{
     text-decoration: none;
     color: #62b3f5;
     font-size: 1.5em;
+}
+
+.icone-nav{
+  margin-left: 270px;
+}
+
+.row 
+{margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image{
+  height: 90%;
+}
+
+.card{
+    display: flex;
     margin-left: 30px;
-}
-
-nav{
-    margin-left: 200px;
-}
-
-.card1{
-    display: flex;
-    margin-left: 70px;
     border: solid 1px rgb(122, 118, 118);
     border-radius: 10px;
-    width: 620px;
+    width: 520px;
+    height: 180px;
     
 }
-.card2{
-    display: flex;
-    margin-left: 70px;
-    border: solid 1px rgb(122, 118, 118);
-    border-radius: 10px;
-    width: 620px;
-    
-}
-.card3{
-    display: flex;
-    margin-left: 70px;
-    border: solid 1px rgb(122, 118, 118);
-    border-radius: 10px;
-    width: 620px;
-    
-}
-.card4{
-    display: flex;
-    margin-left: 70px;
-    border: 1px solid rgb(122, 118, 118);
-    border-radius: 10px;
-    width: 620px;
+.card-content{
     
 }
 
-.img1{
-    
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
 }
 
-.part1{
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-.sous-title{
+.post-title{
     font-size: 22px;
     
 }
 
-.texte1{
-    font-size: 20px;
+.post-extract{
+    font-size: 16px;
 }
 
-.part1-2 a{
+.show-more{
     color: #62b3f5;
-    font-size: 26px !important;
+    font-size: 18px !important;
     font-style: italic;
-    margin-left: 80px;
+    margin-left: 20px;
 }
-.part1-2 p{
+.post-date {
     color: rgb(87, 84, 84);
     font-size: 17px;
+    padding-top: 10px;
 }
 
-.first{
+.card-container{
+    margin-bottom: 30px;
     display: flex;
-}
-
-.second{
-    display: flex;
-    margin-top: 40px;
+    margin-left: 150px;
 }
 
 section hr{
@@ -105,12 +158,13 @@ section hr{
 
 footer{
     background-color: rgb(71, 68, 68);
+    background-repeat: repeat;
     color: rgb(189, 184, 184);
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .foot1{
     display: flex;
-    margin-left: 500px;
+    justify-content:center ;
     padding-top: 20px;
     font-size: 17px;
 }
@@ -123,7 +177,7 @@ footer{
 }
 
 .foot2{
-    margin-left: 700px;
+    margin-left: 600px;
     padding-bottom: 15px;
     font-size: 17px;
     font-family: sans-serif !important;
