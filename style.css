@@ -122,6 +122,7 @@
     margin-bottom: 20px !important;
     margin-top: 30px;
     margin-left: 20px !important;
+    text-align: center;
  
   }
 
@@ -183,16 +184,16 @@
     background-color: rgb(71, 68, 68);
     color: rgb(189, 184, 184);
     margin-top: 30px;
-    height: 300px;
-    padding-top: 30px;
+    height: 130px;
+    padding-top: 35px;
+    text-align: center;
   }
   .foot1{
-    vertical-align: auto;
     font-size: 17px;
+    text-align: start;
   }
 
   .foot1 a{
-  
     text-align: center;
     margin-left: 100px;
     color: rgb(189, 184, 184);
@@ -202,7 +203,6 @@
 
   .foot2{
     text-align: center;
-    padding-bottom: 15px;
     font-size: 17px;
     font-family: sans-serif !important;
   }
@@ -359,6 +359,6 @@
   } 
 
 }  
-*/
+
 
 
