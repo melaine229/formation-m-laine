@@ -90,14 +90,13 @@
 
   .nos{
     font-size:18px;
-    margin-left: 20px !important;
+    margin-left: 10px !important;
   }
 
   .cletus{
-    margin-left: 0 !important;
     float:right;
     position: absolute;
-    right: 18px;
+    right: 50px;
     font-size: 22px;
   }
 
@@ -121,7 +120,7 @@
     flex-direction: column;
     margin-bottom: 20px !important;
     margin-top: 30px;
-    margin-left: 20px !important;
+    margin-left: 10px !important;
     text-align: center;
  
   }
@@ -176,7 +175,7 @@
   }
 
   section hr{
-    width: 315px;
+    width: 270px;
     margin-top: 30px;
   }
 
@@ -190,7 +189,20 @@
   }
   .foot1{
     font-size: 17px;
-    text-align: start;
+    padding-right: 84px;
+    
+  }
+
+  .foot1 ul li{
+    list-style: none;
+    
+  }
+
+  .foot1 ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
   }
 
   .foot1 a{
@@ -342,6 +354,14 @@
       justify-content:center ;
       padding-top: 20px;
       font-size: 17px;
+  }
+
+  .foot1 ul li {
+    list-style: none;
+  }
+  .foot1 ul {
+   display: flex;
+   padding-left: 0;
   }
 
   .foot1 a{
