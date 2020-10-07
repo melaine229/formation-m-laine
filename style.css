@@ -1,5 +1,8 @@
 @media screen and (max-width:768px)
 {
+ header{
+   min-width: 400px;
+ }
 #menuToggle{
    display: block;
    position: relative;
@@ -95,7 +98,7 @@
 
   .cletus{
     float:right;
-    position: absolute;
+    position: fixed;
     right: 50px;
     font-size: 22px;
   }
@@ -186,6 +189,8 @@
     height: 130px;
     padding-top: 35px;
     text-align: center;
+    min-width: 400px;
+   
   }
   .foot1{
     font-size: 17px;
